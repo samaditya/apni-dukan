@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: 1,
+    _id: "1",
     name: "iPhone 9",
     description: "An apple mobile which is nothing like apple",
     countInStock : 122,
@@ -21,7 +21,7 @@ const products = [
     ],
   },
   {
-    _id: 2,
+    _id: "2",
     name: "iPhone X",
     description:
       "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
@@ -42,7 +42,7 @@ const products = [
     ],
   },
   {
-    _id: 3,
+    _id: "3",
     name: "Samsung Universe 9",
     description:
       "Samsung's new variant which goes beyond Galaxy to the Universe",
