@@ -1,6 +1,6 @@
 const products = [
   {
-    _id: "1",
+   
     name: "iPhone 9",
     description: "An apple mobile which is nothing like apple",
     countInStock : 122,
@@ -21,7 +21,7 @@ const products = [
     ],
   },
   {
-    _id: "2",
+   
     name: "iPhone X",
     description:
       "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
@@ -42,7 +42,7 @@ const products = [
     ],
   },
   {
-    _id: "3",
+    
     name: "Samsung Universe 9",
     description:
       "Samsung's new variant which goes beyond Galaxy to the Universe",
@@ -56,7 +56,7 @@ const products = [
     images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
   },
   {
-    _id: 4,
+   
     name: "OPPOF19",
     description: "OPPO F19 is officially announced on April 2021.",
     price: 280,
@@ -75,7 +75,7 @@ const products = [
     ],
   },
   {
-    _id: 5,
+    
     name: "Huawei P30",
     description:
       "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
@@ -93,7 +93,7 @@ const products = [
     ],
   },
   {
-    _id: 6,
+  
     name: "MacBook Pro",
     description:
       "MacBook Pro 2021 with mini-LED display may launch between September, November",
@@ -109,103 +109,6 @@ const products = [
       "https://i.dummyjson.com/data/products/6/2.jpg",
       "https://i.dummyjson.com/data/products/6/3.png",
       "https://i.dummyjson.com/data/products/6/4.jpg",
-    ],
-  },
-  {
-    _id: 7,
-    name: "Samsung Galaxy Book",
-    description:
-      "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
-    price: 1499,
-    discountPercentage: 4.15,
-    rating: 4.25,
-    stock: 50,
-    brand: "Samsung",
-    category: "laptops",
-    image: "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-    images: [
-      "https://i.dummyjson.com/data/products/7/1.jpg",
-      "https://i.dummyjson.com/data/products/7/2.jpg",
-      "https://i.dummyjson.com/data/products/7/3.jpg",
-      "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-    ],
-  },
-  {
-    _id: 8,
-    name: "Microsoft Surface Laptop 4",
-    description:
-      "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
-    price: 1499,
-    discountPercentage: 10.23,
-    rating: 4.43,
-    stock: 68,
-    brand: "Microsoft Surface",
-    category: "laptops",
-    image: "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-    images: [
-      "https://i.dummyjson.com/data/products/8/1.jpg",
-      "https://i.dummyjson.com/data/products/8/2.jpg",
-      "https://i.dummyjson.com/data/products/8/3.jpg",
-      "https://i.dummyjson.com/data/products/8/4.jpg",
-      "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-    ],
-  },
-  {
-    _id: 9,
-    name: "Infinix INBOOK",
-    description:
-      "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
-    price: 1099,
-    discountPercentage: 11.83,
-    rating: 4.54,
-    stock: 96,
-    brand: "Infinix",
-    category: "laptops",
-    image: "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-    images: [
-      "https://i.dummyjson.com/data/products/9/1.jpg",
-      "https://i.dummyjson.com/data/products/9/2.png",
-      "https://i.dummyjson.com/data/products/9/3.png",
-      "https://i.dummyjson.com/data/products/9/4.jpg",
-      "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-    ],
-  },
-  {
-    _id: 10,
-    name: "HP Pavilion 15-DK1056WM",
-    description:
-      "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
-    price: 1099,
-    discountPercentage: 6.18,
-    rating: 4.43,
-    stock: 89,
-    brand: "HP Pavilion",
-    category: "laptops",
-    image: "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-    images: [
-      "https://i.dummyjson.com/data/products/10/1.jpg",
-      "https://i.dummyjson.com/data/products/10/2.jpg",
-      "https://i.dummyjson.com/data/products/10/3.jpg",
-      "https://i.dummyjson.com/data/products/10/thumbnail.jpeg",
-    ],
-  },
-  {
-    _id: 11,
-    name: "perfume Oil",
-    description:
-      "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
-    price: 13,
-    discountPercentage: 8.4,
-    rating: 4.26,
-    stock: 65,
-    brand: "Impression of Acqua Di Gio",
-    category: "fragrances",
-    image: "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
-    images: [
-      "https://i.dummyjson.com/data/products/11/1.jpg",
-      "https://i.dummyjson.com/data/products/11/2.jpg",
-      "https://i.dummyjson.com/data/products/11/3.jpg",
-      "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
     ],
   },
 ];
