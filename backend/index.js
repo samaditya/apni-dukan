@@ -2,6 +2,10 @@ import express from 'express';
 import productRoutes from './routes/productRoutes.js'
 import { notFound , errorHandler } from './middleware/errorMiddleware.js';
 import dotenv from 'dotenv';
+import cors from 'cors';
+
+
+
 dotenv.config();
 
 import connectDB from './config/db.js';
@@ -10,6 +14,8 @@ connectDB();
 const port = process.env.PORT||8000;
 
 const app = express();
+// Allow requests from any origin
+app.use(cors());
 
 app.get('/', (req , res)=>{
     res.send("Api Hit")
