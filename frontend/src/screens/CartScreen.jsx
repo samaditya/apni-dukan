@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link , useNavigate} from 'react-router-dom';
 import { FaTrash } from 'react-icons/fa'
-import { Row , Col , ListGroup , Image , Form , Button , Card, ListGroupItem  } from 'react-bootstrap'
+import { Row , Col , ListGroup , Image , Form , Button , Card  } from 'react-bootstrap'
 import Message from '../components/Message'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart , removeFromCart } from '../slices/cartSlice';
